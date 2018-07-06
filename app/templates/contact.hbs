@@ -1,0 +1,9 @@
+	name: {{model.name}}<br>
+	date of birth:{{model.dob}}<br>
+	email:{{model.email}}<br>
+	phone number:{{model.phone}}<br>
+	college:{{model.college}}<br>
+
+	 <button {{action "deleted"  model.id}}>DELETE</button>
+	 <button {{action "update" 	model.id}}>UPDATE</button>
+{{outlet}}

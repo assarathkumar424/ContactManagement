@@ -1,0 +1,9 @@
+<form>
+	name:{{input type="text"  value=model.name}}
+	date of birth:{{input type="dob"  value=model.dob}}
+	phone:{{input type="text"  value=model.phone}}
+	college:{{input type="text"  value=model.college}}
+	email id:{{input type="email"  value=model.email }}
+	<button {{action "changedata" model.id}}>UPDATE</button>
+</form>
+{{outlet}}
